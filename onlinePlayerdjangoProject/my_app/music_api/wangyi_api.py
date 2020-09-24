@@ -26,7 +26,7 @@
 
 
 import requests
-from music_api.netEaseEncode import *
+from my_app.music_api.netEaseEncode import *
 
 
 def wangyi_search_api(search_name):

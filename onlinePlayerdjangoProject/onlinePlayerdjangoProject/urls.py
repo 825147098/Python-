@@ -21,4 +21,5 @@ from my_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'^my/api$', views.search_song, name='my_api')
 ]
