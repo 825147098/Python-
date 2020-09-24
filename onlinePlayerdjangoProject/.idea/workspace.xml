@@ -2,29 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f7de50-d791-4bff-8fc8-2a34de276972" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/onlinePlayerdjangoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/onlinePlayerdjangoProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/music_api/kugou_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/music_api/kuwo_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/music_api/migu_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/music_api/netEaseEncode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/music_api/qianqian_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/music_api/qq_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/music_api/wangyi_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_app/music_api/xiami_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinePlayerdjangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlinePlayerdjangoProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinePlayerdjangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlinePlayerdjangoProject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="ca3fdddb-c178-489b-bb7f-9bc057dc398c" />
   </component>
   <component name="JupyterTrust" id="910f53b7-baab-4105-ae22-c8b41e2826dc" />
   <component name="ProjectId" id="1hu1HAPv8nkUg7KFqbNFgWB2yAF" />
@@ -40,10 +47,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/onlinePlayerdjangoProject/settings.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my_app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pycharmworkspace\Python-onlinePlayer\onlinePlayerdjangoProject\my_app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pycharmworkspace\Python-onlinePlayer\onlinePlayerdjangoProject\my_app" />
+    </key>
   </component>
   <component name="RunManager" selected="Django Server.my_project">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -112,8 +127,16 @@
       <updated>1600846074740</updated>
       <workItem from="1600846139732" duration="15000" />
       <workItem from="1600873995409" duration="1057000" />
-      <workItem from="1600875086786" duration="1009000" />
+      <workItem from="1600875086786" duration="1593000" />
     </task>
+    <task id="LOCAL-00001" summary="后端启动成功">
+      <created>1600876202831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600876202831</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,12 +144,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="后端启动成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="后端启动成功" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2365" y="195" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600876098226">
       <screen x="1982" y="0" width="1858" height="1080" />
     </state>
     <state x="2365" y="195" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876098226" />
+    <state x="2646" y="340" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600876208051">
+      <screen x="1982" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2646" y="340" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876208051" />
+    <state x="2509" y="103" key="CommitChangelistDialog2" timestamp="1600876200541">
+      <screen x="1982" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2509" y="103" key="CommitChangelistDialog2/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876200541" />
     <state x="2769" y="285" key="EnvironmentVariablesDialog" timestamp="1600876041404">
       <screen x="1982" y="0" width="1858" height="1080" />
     </state>
@@ -135,26 +168,30 @@
       <screen x="1982" y="0" width="1858" height="1080" />
     </state>
     <state x="2691" y="280" key="FileChooserDialogImpl/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876029321" />
-    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1600876048677">
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1600876683367">
       <screen x="1982" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876048677" />
-    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1600876048677">
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876683367" />
+    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1600876683367">
       <screen x="1982" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.center/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876048677" />
-    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1600876048677">
+    <state width="1815" height="295" key="GridCell.Tab.0.center/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876683367" />
+    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1600876683367">
       <screen x="1982" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.left/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876048677" />
-    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1600876048677">
+    <state width="1815" height="295" key="GridCell.Tab.0.left/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876683367" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1600876683367">
       <screen x="1982" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876048677" />
-    <state x="2412" y="184" key="SettingsEditor" timestamp="1600876042289">
+    <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876683367" />
+    <state x="2412" y="184" key="SettingsEditor" timestamp="1600876273009">
       <screen x="1982" y="0" width="1858" height="1080" />
     </state>
-    <state x="2412" y="184" key="SettingsEditor/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876042289" />
+    <state x="2412" y="184" key="SettingsEditor/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876273009" />
+    <state x="2503" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600876275447">
+      <screen x="1982" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2503" y="273" key="Vcs.Push.Dialog.v2/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876275447" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/onlinePlayerdjangoProject$manage.coverage" NAME="manage Coverage Results" MODIFIED="1600875801899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
