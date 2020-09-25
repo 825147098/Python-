@@ -7,6 +7,7 @@ export default new Vuex.Store({
   state: {
     type:'',
     name:'',
+    host:'localhost',
 
   },
   mutations: {
