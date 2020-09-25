@@ -33,7 +33,7 @@ def qq_search_api(search_name):
     html = html[:-1]
     # 获取songmid
     js = json.loads(html)
-    print(js)
+    # print(js)
     songlist = js['data']['song']['list']
     guid = 889024444
     uin = 4250

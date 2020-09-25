@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f7de50-d791-4bff-8fc8-2a34de276972" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../py-onlineplayer-font/src/components/musicTabs.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../py-onlineplayer-font/src/components/searchBar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/onlinePlayerdjangoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/onlinePlayerdjangoProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_app/music_api/kugou_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/music_api/kugou_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_app/music_api/kuwo_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/music_api/kuwo_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/music_api/migu_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/music_api/migu_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/music_api/netEaseEncode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/music_api/qianqian_api.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my_app/music_api/qq_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/music_api/qq_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/music_api/wangyi_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/music_api/xiami_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/music_api/xiami_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlinePlayerdjangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlinePlayerdjangoProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../py-onlineplayer-font/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../py-onlineplayer-font/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../py-onlineplayer-font/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../py-onlineplayer-font/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../py-onlineplayer-font/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../py-onlineplayer-font/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../py-onlineplayer-font/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../py-onlineplayer-font/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../py-onlineplayer-font/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../py-onlineplayer-font/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../py-onlineplayer-font/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../py-onlineplayer-font/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../py-onlineplayer-font/src/views/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../py-onlineplayer-font/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../py-onlineplayer-font/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../py-onlineplayer-font/src/components/musicTabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../py-onlineplayer-font/src/components/musicTabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +128,7 @@
       <workItem from="1600875086786" duration="1593000" />
       <workItem from="1600907933711" duration="4071000" />
       <workItem from="1600914340897" duration="1000" />
+      <workItem from="1600995259883" duration="1133000" />
     </task>
     <task id="LOCAL-00001" summary="后端启动成功">
       <created>1600876202831</created>
@@ -203,29 +184,29 @@
     </state>
     <state x="586" y="214" key="FileChooserDialogImpl/0.0.1536.824/1982.0.1858.1080@0.0.1536.824" timestamp="1600963199548" />
     <state x="2691" y="280" key="FileChooserDialogImpl/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600876029321" />
-    <state width="1493" height="295" key="GridCell.Tab.0.bottom" timestamp="1600993781091">
+    <state width="1493" height="295" key="GridCell.Tab.0.bottom" timestamp="1600997083456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600914336004" />
-    <state width="1493" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824/1982.0.1858.1080@0.0.1536.824" timestamp="1600993781091" />
+    <state width="1493" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824/1982.0.1858.1080@0.0.1536.824" timestamp="1600997083456" />
     <state width="1815" height="295" key="GridCell.Tab.0.bottom/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600948262727" />
-    <state width="1493" height="295" key="GridCell.Tab.0.center" timestamp="1600993781090">
+    <state width="1493" height="295" key="GridCell.Tab.0.center" timestamp="1600997083456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600914336002" />
-    <state width="1493" height="295" key="GridCell.Tab.0.center/0.0.1536.824/1982.0.1858.1080@0.0.1536.824" timestamp="1600993781090" />
+    <state width="1493" height="295" key="GridCell.Tab.0.center/0.0.1536.824/1982.0.1858.1080@0.0.1536.824" timestamp="1600997083456" />
     <state width="1815" height="295" key="GridCell.Tab.0.center/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600948262727" />
-    <state width="1493" height="295" key="GridCell.Tab.0.left" timestamp="1600993781090">
+    <state width="1493" height="295" key="GridCell.Tab.0.left" timestamp="1600997083456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600914336002" />
-    <state width="1493" height="295" key="GridCell.Tab.0.left/0.0.1536.824/1982.0.1858.1080@0.0.1536.824" timestamp="1600993781090" />
+    <state width="1493" height="295" key="GridCell.Tab.0.left/0.0.1536.824/1982.0.1858.1080@0.0.1536.824" timestamp="1600997083456" />
     <state width="1815" height="295" key="GridCell.Tab.0.left/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600948262727" />
-    <state width="1493" height="295" key="GridCell.Tab.0.right" timestamp="1600993781090">
+    <state width="1493" height="295" key="GridCell.Tab.0.right" timestamp="1600997083456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600914336003" />
-    <state width="1493" height="295" key="GridCell.Tab.0.right/0.0.1536.824/1982.0.1858.1080@0.0.1536.824" timestamp="1600993781090" />
+    <state width="1493" height="295" key="GridCell.Tab.0.right/0.0.1536.824/1982.0.1858.1080@0.0.1536.824" timestamp="1600997083456" />
     <state width="1815" height="295" key="GridCell.Tab.0.right/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600948262727" />
     <state x="2412" y="184" key="SettingsEditor" timestamp="1600876273009">
       <screen x="1982" y="0" width="1858" height="1080" />

@@ -39,7 +39,7 @@ def kuwo_search_api(search_name):
     res.encoding = 'utf-8'
     res = json.loads(re.match(".*?({.*}).*", res.text, re.S).group(1))
 
-    print(res)
+    # print(res)
 
     res = res["data"]["list"]
     # print(res)

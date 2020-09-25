@@ -37,6 +37,7 @@
       <workItem from="1600845024699" duration="4000" />
       <workItem from="1600847944084" duration="87000" />
       <workItem from="1600905755401" duration="56000" />
+      <workItem from="1600993804917" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="项目建立">
       <created>1600905788383</created>
@@ -45,30 +46,32 @@
       <option name="project" value="LOCAL" />
       <updated>1600905788383</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="后端基本完成">
+      <created>1600993886423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600993886423</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="229" y="89" key="SettingsEditor" timestamp="1600905995387">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600905995387" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目建立" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目建立" />
+    <MESSAGE value="后端基本完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="后端基本完成" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2466" y="103" key="CommitChangelistDialog2" timestamp="1600905786381">
+    <state x="2466" y="103" key="CommitChangelistDialog2" timestamp="1600993881759">
       <screen x="1982" y="0" width="1858" height="1080" />
     </state>
-    <state x="2466" y="103" key="CommitChangelistDialog2/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600905786381" />
-    <state x="2503" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600905792296">
+    <state x="2466" y="103" key="CommitChangelistDialog2/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600993881759" />
+    <state x="2503" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600993918376">
       <screen x="1982" y="0" width="1858" height="1080" />
     </state>
-    <state x="2503" y="273" key="Vcs.Push.Dialog.v2/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600905792296" />
+    <state x="2503" y="273" key="Vcs.Push.Dialog.v2/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600993918376" />
   </component>
 </project>

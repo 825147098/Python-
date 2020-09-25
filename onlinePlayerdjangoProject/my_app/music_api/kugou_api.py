@@ -68,7 +68,7 @@ def kugou_search_api(song_name):
         # print(res2.text())
         res2 = json.loads(re.match(".*?({.*}).*", res2.text).group(1))['data']  # 同样需要用正则处理一下才为json格式,再转为字典
 
-        print(res2)
+        # print(res2)
 
         buf["song_name"] = res2['song_name']
         buf["song_user"] = res2['author_name']
