@@ -32,6 +32,8 @@ def migu_search_api(search_name):
     # print(res.text)
     res = json.loads(res.text)
 
+    # print(res)
+
     res = res["musics"]
     # print(res)
     song_list_meesage = []
@@ -41,8 +43,11 @@ def migu_search_api(search_name):
         buf = {}
         buf["song_name"] = item["songName"]
         buf["song_user"] = item["singerName"]
-        buf["song_time"] = ""
+        buf["song_time"] = "null"
         buf["song_url"] = item["mp3"]
+        buf["song_album"] = item["albumName"]
+        buf["song_lyr"] = "null"
+        buf["song_img"] = item["cover"]
 
         # 去除重复的歌曲
         song_find_flg = 0

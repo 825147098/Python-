@@ -38,6 +38,9 @@ def kuwo_search_api(search_name):
     # print(url)
     res.encoding = 'utf-8'
     res = json.loads(re.match(".*?({.*}).*", res.text, re.S).group(1))
+
+    print(res)
+
     res = res["data"]["list"]
     # print(res)
     song_list_meesage = []
@@ -49,6 +52,10 @@ def kuwo_search_api(search_name):
         buf["song_user"] = item["artist"]
         buf["song_id"] = item["rid"]
         buf["song_time"] = item["songTimeMinutes"]
+        buf["song_img"] = item['albumpic']
+        buf["song_lyr"] = "null"
+        buf["song_album"] = item["album"]
+
         i += 1
 
         # 以下根据歌曲id获取歌曲url和歌曲播放时间

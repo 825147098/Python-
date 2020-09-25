@@ -37,6 +37,7 @@ def xiami_search_api(search_name):
     # print(response)
     response = json.loads(response[len('jsonp154('):-len(')')])
     # 修改下返回的信息，与之前的网易云对应，这样就不用修改太多即可做扩展。
+    # print(response)
     data = response['data']
     # print(data)
     songs = data['songs']
@@ -46,8 +47,11 @@ def xiami_search_api(search_name):
         buf = {}
         buf["song_name"] = item["song_name"]
         buf["song_user"] = item["artist_name"]
-        buf["song_time"] = ""
+        buf["song_time"] = "null"
         buf["song_url"] = item["listen_file"]
+        buf["song_album"] = item["album_name"]
+        buf["song_lyr"] = "null"
+        buf["song_img"] = item["album_logo"]
 
         # 去除重复的歌曲
         song_find_flg = 0

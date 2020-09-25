@@ -10,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="08e40a2f-83a6-46f8-bc4b-bcdf8f6ce8b1" />
+  <component name="JupyterTrust" id="910f53b7-baab-4105-ae22-c8b41e2826dc" />
   <component name="ProjectId" id="1htz8rc5StDyIva1yUUjMHd6LLZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,7 +36,16 @@
       <updated>1600845022255</updated>
       <workItem from="1600845024699" duration="4000" />
       <workItem from="1600847944084" duration="87000" />
+      <workItem from="1600905755401" duration="56000" />
     </task>
+    <task id="LOCAL-00001" summary="项目建立">
+      <created>1600905788383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600905788383</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -47,5 +56,19 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600905995387" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目建立" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目建立" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2466" y="103" key="CommitChangelistDialog2" timestamp="1600905786381">
+      <screen x="1982" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2466" y="103" key="CommitChangelistDialog2/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600905786381" />
+    <state x="2503" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600905792296">
+      <screen x="1982" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2503" y="273" key="Vcs.Push.Dialog.v2/0.0.1536.824/1982.0.1858.1080@1982.0.1858.1080" timestamp="1600905792296" />
   </component>
 </project>

@@ -68,10 +68,16 @@ def kugou_search_api(song_name):
         # print(res2.text())
         res2 = json.loads(re.match(".*?({.*}).*", res2.text).group(1))['data']  # 同样需要用正则处理一下才为json格式,再转为字典
 
+        print(res2)
+
         buf["song_name"] = res2['song_name']
         buf["song_user"] = res2['author_name']
         buf["song_time"] = str(int(int(res2["timelength"])/1000/60)) + ":" + str(int(int(res2["timelength"])/1000%60))
         buf["song_url"] = res2['play_url']
+        buf["song_album"] = res2["album_name"]
+        buf["song_img"] = res2["img"]
+        buf["song_lyr"] = res2["lyrics"]
+
 
         # 去除重复的歌曲
         song_find_flg = 0

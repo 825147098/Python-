@@ -33,6 +33,7 @@ def qq_search_api(search_name):
     html = html[:-1]
     # 获取songmid
     js = json.loads(html)
+    print(js)
     songlist = js['data']['song']['list']
     guid = 889024444
     uin = 4250
@@ -43,8 +44,10 @@ def qq_search_api(search_name):
         buf["song_name"] = song['songname']
         buf["song_user"] = song['singer'][0]['name']
         buf["song_time"] = str(int(int(song["interval"]) / 60)) + ":" + str(int(int(song["interval"]) % 60))
-
+        buf["song_album"] = song["albumname"]
         buf["song_id"] = song['songmid']
+        buf["song_lyr"] = "null"
+        buf["song_img"] = "null"
 
         songmid = song['songmid']
         name = song['songname']
