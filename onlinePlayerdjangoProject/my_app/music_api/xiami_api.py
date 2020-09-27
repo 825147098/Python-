@@ -36,7 +36,6 @@ def xiami_search_api(search_name):
     response = res.text
     # print(response)
     response = json.loads(response[len('jsonp154('):-len(')')])
-    # 修改下返回的信息，与之前的网易云对应，这样就不用修改太多即可做扩展。
     # print(response)
     data = response['data']
     # print(data)
@@ -61,7 +60,4 @@ def xiami_search_api(search_name):
 
         if song_find_flg == 0 and len(buf["song_url"]) != 0:
             song_list_meesage.append(buf)
-        # print(buf["song_name"], "  -  ", buf["song_user"], "  -  ", buf["song_time"])
-        # print(buf["song_url"])
-        # print("************************")
     return song_list_meesage

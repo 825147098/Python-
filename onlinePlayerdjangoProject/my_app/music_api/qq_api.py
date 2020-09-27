@@ -74,8 +74,8 @@ def qq_search_api(search_name):
             if (song_find["song_name"] == buf["song_name"]) and (song_find["song_user"] == buf["song_user"]):
                 song_find_flg = 1
 
-        # 当song_find_flg==1,说明歌曲和列表重复，
-        # 当歌曲purl数据长度小于1，说明该url异常
+        # 当song_find_flg==1,歌曲和列表重复，
+        # 当歌曲purl数据长度小于1，该url异常
         if song_find_flg == 0 and len(purl) > 1:
             song_list_meesage.append(buf)
 

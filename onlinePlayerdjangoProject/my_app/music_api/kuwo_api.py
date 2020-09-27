@@ -63,7 +63,7 @@ def kuwo_search_api(search_name):
             buf["song_id"])
         res2 = requests.get(get_song_url)
         # print(res2.text)
-        res2 = json.loads(re.match(".*?({.*}).*", res2.text).group(1))  # 同样需要用正则处理一下才为json格式,再转为字典
+        res2 = json.loads(re.match(".*?({.*}).*", res2.text).group(1))  # 正则处理为json格式,再转为字典
         # print(res2)
         buf["song_url"] = res2["url"]
 
@@ -76,7 +76,5 @@ def kuwo_search_api(search_name):
 
         if song_find_flg == 0 and len(buf["song_url"]) != 0:
             song_list_meesage.append(buf)
-        # print(buf["song_name"], "  -  ", buf["song_user"], "  -  ", buf["song_time"], "  -  ", buf["song_id"])
-        # print(buf["song_url"])
-        # print("************************")
+
     return song_list_meesage

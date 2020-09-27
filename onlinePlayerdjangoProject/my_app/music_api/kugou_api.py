@@ -37,16 +37,16 @@ def kugou_search_api(song_name):
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"}
     res = requests.get(url, headers=headler)  # 进行get请求
     # print(res.text)
-    # 需要注意一点，返回的数据并不是真正的json格式，前后有那个多余字符串需要用正则表达式去掉,只要大括号{}包着的内容
+
     # json.loads就是将json数据转为python字典的函数
     res = json.loads(re.match(".*?({.*}).*", res.text, re.S).group(1))
 
-    list = res['data']['lists']  # 这个就是歌曲列表
+    list = res['data']['lists']  # 歌曲列表
     # print(list)
-    # 建立List存放歌曲列表信息，将这个歌曲列表输出，别的程序就可以直接调用
+    # 建立List存放歌曲列表信息，将这个歌曲列表输出
     song_list_meesage = []
 
-    # for循环遍历列表得到每首单曲的信息
+    # 循环遍历列表得到每首单曲的信息
     for item in list:
         buf = {}
         # 将列表每项的item['FileHash'],item['AlnbumID']拼接请求url2
@@ -66,7 +66,7 @@ def kugou_search_api(song_name):
 
         res2 = requests.get(url2, headers=headler)
         # print(res2.text())
-        res2 = json.loads(re.match(".*?({.*}).*", res2.text).group(1))['data']  # 同样需要用正则处理一下才为json格式,再转为字典
+        res2 = json.loads(re.match(".*?({.*}).*", res2.text).group(1))['data']  # 正则处理为json格式,再转为字典
 
         # print(res2)
 
@@ -85,14 +85,11 @@ def kugou_search_api(song_name):
             if (song_find["song_name"] == buf["song_name"]) and (song_find["song_user"] == buf["song_user"]):
                 song_find_flg = 1
 
-        # 当song_find_flg==1,说明歌曲和列表重复，
-        # 当歌曲url数据长度等于0，说明该id异常
+        # 当song_find_flg==1,歌曲和列表重复，
+        # 当歌曲url数据长度等于0，该id异常
         if song_find_flg == 0 and len(buf["song_url"]) != 0:
             song_list_meesage.append(buf)
 
-        # print(buf["song_name"] + " - " + buf["song_user"] + " - " + buf["song_time"])
-        # print(url)
-        # print("************************")
 
     return song_list_meesage
 
