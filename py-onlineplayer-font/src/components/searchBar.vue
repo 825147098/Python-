@@ -5,20 +5,23 @@
       <div id="search-group">
         <el-input size="small"
                   placeholder="搜索歌名"
-                  class="search-group-input"
+                  class="search-group-input text_color"
                   v-model="inputData"
+                  clearable
+                  @keydown.enter.native="setSearchName"
         ></el-input>
         <el-button
+            @click="setSearchName"
                 class="search-group-button">
           搜索
         </el-button>
       </div>
-        <el-radio-group v-model="radio" >
-          <el-radio label="kugou">酷狗</el-radio>
-          <el-radio label="kuwo">酷我</el-radio>
-          <el-radio label="migu">咪咕</el-radio>
-          <el-radio label="qq">QQ音乐</el-radio>
-          <el-radio label="xiami">虾米</el-radio>
+        <el-radio-group v-model="radio"  >
+          <el-radio class="text_color" label="kugou">酷狗</el-radio>
+          <el-radio class="text_color" label="kuwo">酷我</el-radio>
+          <el-radio class="text_color" label="migu">咪咕</el-radio>
+          <el-radio class="text_color" label="qq">QQ音乐</el-radio>
+          <el-radio class="text_color" label="xiami">虾米</el-radio>
         </el-radio-group>
       </div>
     </div>
@@ -36,7 +39,9 @@ export default {
   },
 
   methods:{
-
+      setSearchName(){
+          this.$store.commit("incrementName",{newName:this.inputData,newType:this.radio})
+      }
   }
 }
 </script>
@@ -52,6 +57,14 @@ export default {
   width: 70%;
   border-radius: 0;
 }
+.search-group-input /deep/ .el-input__inner{
+  background-color: transparent;
+}
+
+.text_color{
+  color: white;
+}
+
 .search-group-button {
   border: 1px solid #a7a1a1;
   background-color: #eee;
@@ -63,5 +76,9 @@ export default {
   text-overflow: clip;
   overflow: hidden;
   border-radius: 0;
+}
+
+/deep/ .el-input__inner{
+  color: white;
 }
 </style>
